@@ -1,4 +1,15 @@
-window.onload = function shortsToNormal() {
+let lastUrl = location.href;
+new MutationObserver(() => {
+    const currentUrl = location.href;
+    if (currentUrl !== lastUrl) {
+        lastUrl = currentUrl;
+        shortsToNormal();
+    }
+}).observe(document, {subtree: true, childList: true});
+
+window.onload = shortsToNormal();
+
+function shortsToNormal() {
     var pathArray = window.location.pathname.split('/');
     
     if (pathArray[1] === 'shorts') {
@@ -10,4 +21,3 @@ window.onload = function shortsToNormal() {
         console.log('not YouTube shorts');
     }
 }
-
