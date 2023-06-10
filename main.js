@@ -17,7 +17,5 @@ function shortsToNormal() {
         const newUrl = new URL('https://www.youtube.com/watch');
         newUrl.searchParams.set('v', query);
         location.href = newUrl;
-    } else {
-        console.log('not YouTube shorts');
     }
 }
