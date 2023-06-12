@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "YouTube Shorts to Normal Video Extension",
-    "description": "Automatically Switches YouTube Shorts to Normal Video Interface",
-    "version": "1.1",
+    "description": "Automatically Converts YouTube Shorts to Regular Video User Interface",
+    "version": "1.2",
     "icons": {
         "128": "128.png"
     },

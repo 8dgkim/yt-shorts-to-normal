@@ -1,3 +1,3 @@
 # yt-shorts-to-normal
 
-This project is to create a Chrome extension that automatically switches YouTube Shorts to regular video interface.
+This Chrome extension automatically converts YouTube Shorts to regular YouTube video user interface.
