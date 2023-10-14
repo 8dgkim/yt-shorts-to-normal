@@ -24,6 +24,7 @@ function shortsToNormal() {
   }
 }
 
+// check whether the current URL is YouTube Shorts
 function isShortsPage(url) {
   var pathArray = new URL(url).pathname.split('/');
   return pathArray[1] === 'shorts';
